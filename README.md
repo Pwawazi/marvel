@@ -4,13 +4,13 @@ This is a laravel built api that lists out some of the marvel characters within 
 
 ##Setting up this repository
 
-git clone https://github.com/Pwawazi/marvel.git
-cd marvel
-composer install
-cp .env.example .env 
-php artisan key:generate
-php artisan cache:clear && php artisan config:clear 
-php artisan serve 
+git clone https://github.com/Pwawazi/marvel.git \
+cd marvel \
+composer install \
+cp .env.example .env \
+php artisan key:generate\
+php artisan cache:clear && php artisan config:clear \
+php artisan serve \
 
 
 ##Unforseen errors during launch may include:
